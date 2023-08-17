@@ -33,8 +33,6 @@ export default function homePage() {
         const paraThree = document.createElement('p');
         paraThree.textContent = 'Order online or come visit us!';
         card.appendChild(paraThree);
-
-        contentDiv.appendChild(main);
     }
 
     return {

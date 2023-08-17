@@ -31,6 +31,10 @@ export default function basicLayout() {
         itemTwo.textContent = 'Menu';
         itemThree.textContent = 'Contact';
 
+        itemOne.classList.add('home-button');
+        itemTwo.classList.add('menu-button');
+        itemThree.classList.add('contact-button');
+
         itemOne.classList.add('selected');
 
         contentDiv.appendChild(header);
