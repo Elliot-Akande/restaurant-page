@@ -11,11 +11,28 @@ export default function homePage() {
 
     function _renderHeader() {
         const header = document.createElement('header');
+
         const title = document.createElement('h1');
-
         title.textContent = 'Cecchinni\'s';
-
         header.appendChild(title);
+
+        const nav = document.createElement('nav');
+        header.appendChild(nav);
+        
+        const list = document.createElement('ul');
+        nav.appendChild(list);
+        
+        const itemOne = document.createElement('li');
+        const itemTwo = document.createElement('li');
+        const itemThree = document.createElement('li');
+        list.appendChild(itemOne);
+        list.appendChild(itemTwo);
+        list.appendChild(itemThree);
+
+        itemOne.textContent = 'Home';
+        itemTwo.textContent = 'Menu';
+        itemThree.textContent = 'Contact';
+        
         contentDiv.appendChild(header);
     }
 
