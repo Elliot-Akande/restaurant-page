@@ -8,11 +8,23 @@
     src: url(Montserrat-VariableFont_wght.ttf) format('truetype');
 }
 
+@keyframes raise {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-5px);
+    }
+}
+
 :root {
     --color-bg: #000000a4;
     --color-bg-dark: #000000c2;
 
     --color-border-black: #1b1b1b;
+
+    --color-white: white;
 }
 
 html,
@@ -23,7 +35,7 @@ body {
 
 body * {
     text-align: center;
-    color: white;
+    color: var(--color-white);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -47,10 +59,13 @@ footer {
 }
 
 header {
-    height: 150px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* gap: 20px; */
+
     background: var(--color-bg-dark);
 }
 
@@ -59,6 +74,27 @@ header>h1 {
     font-family: 'DancingScript', cursive;
     font-weight: 200;
 }
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+nav>ul>li {
+    font-size: 1.2rem;
+    padding: 20px 25px;
+    position: relative;
+    transition: .2s;
+}
+
+nav>ul>li.selected {
+    border-bottom: 2px solid var(--color-white);
+} 
+
+nav>ul>li:hover {
+    transform: translateY(-5px);
+}
+
 
 main {
     flex: 1;

@@ -32,6 +32,8 @@ export default function homePage() {
         itemOne.textContent = 'Home';
         itemTwo.textContent = 'Menu';
         itemThree.textContent = 'Contact';
+
+        itemOne.classList.add('selected');
         
         contentDiv.appendChild(header);
     }
