@@ -1,3 +1,4 @@
+import './style.css'
 import ChefImg from './chef.jpg';
 
 function homePage() {
