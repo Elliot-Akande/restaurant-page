@@ -1,3 +1,5 @@
+import ChefImg from './chef.jpg';
+
 export default function homePage() {
     const contentDiv = document.querySelector('#content');
 
