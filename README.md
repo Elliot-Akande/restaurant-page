@@ -9,6 +9,6 @@ The aim of this project was to create a functional, multi-page Restaurant websit
 - CSS3
 
 ## Live Demo
-[Click Here!](https://elliot-akande.github.io/noughts-and-crosses/) :point_left:
+[Click Here!](https://elliot-akande.github.io/restaurant-page/) :point_left:
   
   
