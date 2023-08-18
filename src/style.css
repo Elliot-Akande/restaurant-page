@@ -110,6 +110,7 @@ main {
 .card {
     width: 700px;
     padding: 50px;
+    margin: 40px;
 
     display: flex;
     flex-direction: column;
