@@ -2,12 +2,14 @@ import './style.css'
 import basicLayout from './basicLayout';
 import homePage from './homePage';
 import contactPage from './contactPage';
+import menuPage from './menuPage';
 
 //  Create elements consistent across pages
 const defaultLayout = basicLayout();
 defaultLayout.render();
 
 const home = homePage();
+const menu = menuPage();
 const contact = contactPage();
 
 home.render();
@@ -30,7 +32,7 @@ menuButton.addEventListener('click', () => {
     activeButton.classList.toggle('selected');
 
     menuButton.classList.toggle('selected');
-    home.render();
+    menu.render();
 });
 
 contactButton.addEventListener('click', () => {
