@@ -1,6 +1,6 @@
 # Restaurant Page
 
-The aim of the project was to make a functional multi page Restaurant website using *WebPack* to bundle files.
+The aim of this project was to create a functional, multi-page Restaurant website using *WebPack* to bundle files.
 
 ## Built With
 
