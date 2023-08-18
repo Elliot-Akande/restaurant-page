@@ -1,12 +1,15 @@
 import './style.css'
 import basicLayout from './basicLayout';
 import homePage from './homePage';
+import contactPage from './contactPage';
 
 //  Create elements consistent across pages
 const defaultLayout = basicLayout();
 defaultLayout.render();
 
 const home = homePage();
+const contact = contactPage();
+
 home.render();
 
 //  Nav event listeners
@@ -35,5 +38,5 @@ contactButton.addEventListener('click', () => {
     activeButton.classList.toggle('selected');
 
     contactButton.classList.toggle('selected');
-    home.render();
+    contact.render();
 });
