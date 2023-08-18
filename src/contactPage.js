@@ -36,11 +36,11 @@ export default function contactPage() {
         card.appendChild(address);
 
         const mapIcon = document.createElementNS(MapIcon, 'svg');
-        phone.appendChild(mapIcon);
+        address.appendChild(mapIcon);
 
         const paraTwo = document.createElement('p');
         paraTwo.textContent = '123 Sesame Street, Ardrossan, Scotland';
-        phone.appendChild(paraTwo);
+        address.appendChild(paraTwo);
 
         //  Map
         const img = document.createElement('img');

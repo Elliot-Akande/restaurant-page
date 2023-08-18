@@ -114,7 +114,7 @@ main {
     gap: 20px;
 }
 
-.card>p {
+.card p {
     font-size: 1.35rem;
 }
 
