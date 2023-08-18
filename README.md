@@ -1,8 +1,14 @@
 # Restaurant Page
 
-Photo by <a href="https://unsplash.com/@wondermario__?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mario</a> on <a href="https://unsplash.com/photos/ciF10nRBW7o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+The aim of this project was to create a functional, multi-page Restaurant website using *WebPack* to bundle files.
 
-Photo by <a href="https://unsplash.com/@iavnt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan Torres</a> on <a href="https://unsplash.com/photos/MQUqbmszGGM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+## Built With
+
+- Vanilla JS
+- HTML5
+- CSS3
+
+## Live Demo
+[Click Here!](https://elliot-akande.github.io/restaurant-page/) :point_left:
   
   
