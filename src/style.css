@@ -88,7 +88,7 @@ nav>ul>li {
     font-size: 1.2rem;
     padding: 10px 25px 20px;
     position: relative;
-    transition: 0.3s;
+    transition: padding 0.3s;
     cursor: grab;
 }
 
