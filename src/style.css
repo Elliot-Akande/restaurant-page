@@ -21,6 +21,7 @@
 :root {
     --color-bg: #000000a4;
     --color-bg-dark: #000000c2;
+    --color-bg-light: rgba(255, 255, 255, 0.233);
 
     --color-border-black: #1b1b1b;
 
@@ -128,8 +129,6 @@ main {
 
 .section.pizza>h2 {
     font-size: 2.2rem;
-    /* background: var(--color-bg); */
-    /* padding: 30px; */
     margin-bottom: 30px;
 }
 
@@ -140,6 +139,11 @@ main {
     gap: 10px;
     background: var(--color-bg);
     padding: 20px;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background: var(--color-bg-light);
 }
 
 .menu-item>h3 {
