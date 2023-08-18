@@ -1,6 +1,4 @@
 import MapImg from './map.png';
-import PhoneIcon from './phone.svg';
-import MapIcon from './map-marker.svg';
 
 export default function contactPage() {
     const main = document.querySelector('main');
@@ -17,14 +15,15 @@ export default function contactPage() {
     function _renderContent() {
         const card = document.createElement('div');
 
-        card.classList.add('card');
+        card.classList.add('card', 'contact');
         main.appendChild(card);
 
         //  Phone 
         const phone = document.createElement('div');
         card.appendChild(phone);
 
-        const phoneIcon = document.createElementNS(PhoneIcon, 'svg');
+        const phoneIcon = document.createElement('div');
+        phoneIcon.classList.add('phone-icon');
         phone.appendChild(phoneIcon);
 
         const paraOne = document.createElement('p');
@@ -35,7 +34,8 @@ export default function contactPage() {
         const address = document.createElement('div');
         card.appendChild(address);
 
-        const mapIcon = document.createElementNS(MapIcon, 'svg');
+        const mapIcon = document.createElement('div');
+        mapIcon.classList.add('map-icon');
         address.appendChild(mapIcon);
 
         const paraTwo = document.createElement('p');

@@ -106,7 +106,7 @@ main {
 
 .card {
     width: 700px;
-    padding: 55px;
+    padding: 50px;
 
     display: flex;
     flex-direction: column;
@@ -116,6 +116,33 @@ main {
 
 .card p {
     font-size: 1.35rem;
+}
+
+.card.contact {
+    padding: 35px 20px;
+}
+
+.card.contact>div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.phone-icon,
+.map-icon {
+    background: var(--color-white);
+    width: 2rem;
+    height: 2rem;
+}
+
+.phone-icon {
+    -webkit-mask: url(phone.svg) no-repeat center;
+    mask: url(phone.svg) no-repeat center;
+}
+
+.map-icon {
+    -webkit-mask: url(map-marker.svg) no-repeat center;
+    mask: url(map-marker.svg) no-repeat center;
 }
 
 .card>img {
